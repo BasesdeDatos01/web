@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases de Datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>¿Que es una base de datos, cual es la estructura y que es un modelo entidad-relacion?</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>¿Qué es una Base de Datos?</h2>
+            <p>
+                Una base de datos es un conjunto de datos organizados y estructurados que se almacenan en un sistema informático. 
+                Estas bases de datos permiten la gestión, el almacenamiento y la recuperación de información de manera eficiente.
+            </p>
+        </section>
+
+        <section>
+            <h2>Modelo Entidad-Relación (ER)</h2>
+            <p>
+                El modelo entidad-relación es una herramienta utilizada en el diseño de bases de datos. Este modelo permite representar 
+                las entidades (objetos o conceptos del mundo real) y las relaciones entre ellas. Las entidades se representan como 
+                tablas en la base de datos, y las relaciones se definen mediante claves primarias y foráneas.
+            </p>
+            
+        </section>
+
+        <section>
+            <h2>Estructura de una Base de Datos</h2>
+            <p>
+                La estructura de una base de datos se compone de tablas, columnas y filas. Cada tabla representa una entidad, las 
+                columnas representan los atributos de la entidad, y las filas representan los registros o instancias de la entidad. 
+                Además, las bases de datos suelen incluir índices, vistas y procedimientos almacenados para optimizar el acceso a los datos.
+            </p>
+
+            <h2>1.Tablas</h2>
+           <p>
+                <strong>Definición:</strong> Son la base de la base de datos, donde se almacenan los datos en filas y columnas.
+            </p>
+
+            <ul>
+                <li><strong>Filas:</strong> Cada fila representa un registro único.</li>
+                <li><strong>Columnas:</strong> Cada columna representa un atributo del registro.</li>
+            </ul>
+
+            <img src="img/tablas.jpg" alt="Tablas">
+
+            <h2>2.Campos</h2>
+            <p>
+                 <strong>Definición:</strong> Son las columnas de las tablas que contienen datos específicos.
+             </p>
+ 
+             <ul>
+                 <li><strong>Tipos de Datos:</strong> Pueden ser numéricos, texto, fecha, booleanos, etc.</li>
+             </ul>
+
+             <img src="img/campos.jpg" alt="Campos">
+
+             <h2>3.Claves primarias</h2>
+            <p>
+                 <strong>Definición:</strong> Un campo (o conjunto de campos) que identifica de manera única cada registro en una tabla.
+             </p>
+ 
+             <ul>
+                 <li><strong>Ejemplo:</strong> Un ID de usuario.</li>
+             </ul>
+
+             <img src="img/claves primarias.png" alt="Claves primarias">
+
+             <h2>4.Claves Foraneas</h2>
+            <p>
+                 <strong>Definición:</strong>  Un campo que establece una relación entre dos tablas, apuntando a la clave primaria de otra tabla.
+             </p>
+ 
+             <ul>
+                 <li><strong>Funcion:</strong> Mantiene la integridad referencial entre tablas.</li>
+             </ul>
+
+             <img src="img/claves primarias.png" alt="">
+
+             <h2>5.Indices</h2>
+            <p>
+                 <strong>Definición:</strong> Estructuras que mejoran la velocidad de las consultas en la base de datos.
+             </p>
+ 
+             <ul>
+                 <li><strong>Uso:</strong>Permiten acceder a los datos más rápidamente.</li>
+             </ul>
+
+             <img src="img/Indices.jpg" alt="Indices">
+
+             <h2>6.Vistas</h2>
+            <p>
+                 <strong>Definición:</strong> Consultas almacenadas que presentan datos de una o más tablas.
+             </p>
+ 
+             <ul>
+                 <li><strong>Funcion:</strong> Simplifican el acceso a datos complejos.</li>
+             </ul>
+
+             <img src="img/vistas.png" alt="Vistas">
+
+             <h2>7.procedimientos almacenados</h2>
+            <p>
+                 <strong>Definición:</strong>Conjuntos de instrucciones SQL que se almacenan en la base de datos.
+             </p>
+ 
+             <ul>
+                 <li><strong>Uso:</strong> Automatizan tareas y mejoran la eficiencia.</li>
+             </ul>
+
+             <img src="img/procedimientos almacenados.jpg" alt="Procedimientos almacenados">
+
+             <h2>8.Triggers</h2>
+            <p>
+                 <strong>Definición:</strong> Procedimientos que se ejecutan automáticamente en respuesta a ciertos eventos en la base de datos (como inserciones, actualizaciones o eliminaciones).
+             </p>
+ 
+             <ul>
+                 <li><strong>Funcion:</strong>Mantienen la integridad de los datos y realizan auditorías.
+                 </li>
+             </ul>
+
+             <img src="img/triggers.png" alt="triggers">
+
+             <h2>9.Esquemas</h2>
+            <p>
+                 <strong>Definición:</strong> Estructuras que organizan las tablas y otros objetos dentro de la base de datos.
+             </p>
+
+             <ul>
+                <li><strong>Uso:</strong> Facilitan la gestión y el acceso a los datos.</li>
+            </ul>
+
+            <img src="img/esquemas.png" alt="Esquemas">
+ 
+            <h2>10.Relaciones</h2>
+            <p>
+                 <strong>Definición:</strong> Conexiones entre tablas que definen cómo los datos de una tabla están relacionados con los de otra.
+             </p>
+             <p>
+                <strong>Tipos:</strong>
+            </p>
+
+ 
+             <ul>
+                 <li>Uno a uno</li>
+                 <li>Uno a muchos</li>
+                 <li>muchos a muchos</li>
+             </ul>
+
+             <img src="img/relaciones.jpg" alt="Relaciones">
+        </section>
+    </main>
+
+    
+</body>
+</html>
