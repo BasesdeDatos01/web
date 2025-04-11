@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Color crema */
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #4CAF50; /* Verde */
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    text-align: justify; /* Justifica el texto */
+    margin: 10px 0; /* Agrega un margen arriba y abajo para mejor espaciado */
+}
+
+
+section h2 {
+    color: #4CAF50; /* Verde */
+    margin-top: 0;
+    font-size: 21px;
+    text-align: center;
+    
+}
+
+section img {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
